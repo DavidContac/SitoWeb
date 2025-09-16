@@ -1,6 +1,4 @@
-body {
-    direction: ltr;  /* Imposta la direzione da sinistra a destra */
-}
+
 
 #nav-bar{
     display: flex;
