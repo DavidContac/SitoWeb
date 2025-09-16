@@ -140,4 +140,37 @@ a:hover{
 .immagine-client{
     margin-left: 0;
     width: 30%;
+    margin-bottom: 10%;
+}
+
+#container-features{
+    background-color: rgb(237, 248, 251);
+}
+
+.titoloFeatures{
+    padding-top: 5%;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 54);
+    
+}
+
+#cardFeatures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#card {
+    width: 30%; /* Imposta la larghezza delle carte per 3 su ogni riga */
+    text-align: center;
+    margin-bottom: 20px; /* Aggiungi spazio tra le righe */
+}
+
+
+.icon{
+    font-size: 35px;
+    color: rgb(0, 89, 255);
 }
