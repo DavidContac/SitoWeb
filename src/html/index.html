@@ -1,113 +1,146 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Site123</title>
-    <link rel="stylesheet" href="../css/index.css">
-     <script script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
-    <script script  nomodule  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="../css/index.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- sito copiato da: https://it.site123.com/ -->
-
 </head>
 <body>
 
     <!-- footer -->
     <footer>
-        <div id="nav-bar">
+        <nav id="nav-bar">
             <div id="immagine-nav">
-                <img src="../../assets/img/Horizontal_Blue.svg">
+                <img src="../../assets/img/Horizontal_Blue.svg" alt="Logo Site123" />
             </div>
             <div id="menu-nav">
                 <a href="#">Pagina iniziale</a>
                 <a href="#">Prezzi</a>
                 <a href="#">Esempi</a>
                 <a href="#">Supporto</a>
-                <div id="icon">
+                <div id="icon" aria-label="Lingua">
                     <ion-icon name="globe-outline"></ion-icon>
                 </div>
-                <p class="BarraDistanza">|</p>
+                <span class="BarraDistanza" aria-hidden="true">|</span>
                 <a href="#">Accedi</a>
                 <a id="link-nav" href="#">COMINCIA QUI</a>
             </div>
-        </div>
+        </nav>
     </footer>
+
     <div id="container-intro">
         <div id="intro">
-            <h1 class="titoloIntro">Creare Un Sito <br> Web Gratis</h1>
-            <p class="paragrafoIntro">Crea il tuo sito internet grazie a stili e <br> layout pronti all'uso. Non sono richieste <br> competenze di desgin o programmazione.<br> Devi solo inserire i tuoi contenuti e... 1, 2, 3 il <br> sito è pronto!</p>
+            <h1 class="titoloIntro">Creare Un Sito <br /> Web Gratis</h1>
+            <p class="paragrafoIntro">
+                Crea il tuo sito internet grazie a stili e <br /> layout pronti all'uso. Non sono richieste <br /> competenze di desgin o programmazione.<br /> Devi solo inserire i tuoi contenuti e... 1, 2, 3 il <br /> sito è pronto!
+            </p>
             <div id="linkContainer">
                 <a id="link-container" href="#">COMINCIA QUI</a>
             </div>
         </div>
-        <div id="containerImg">
+        <div id="containerImg" aria-label="Immagini introduttive">
             <div id="primaImg">
-                <img src="../../assets/img/first-imgp.webp" class="ImgUno">
+                <img src="../../assets/img/first-imgp.webp" alt="Immagine uno" class="ImgUno" />
             </div>
             <div id="secondaImg">
-                <img src="../../assets/img/first-img1.webp" class="ImgDue">
+                <img src="../../assets/img/first-img1.webp" alt="Immagine due" class="ImgDue" />
             </div>
             <div id="terzaImg">
-                <img src="../../assets/img/first-img3.webp" class="ImgTre">
+                <img src="../../assets/img/first-img3.webp" alt="Immagine tre" class="ImgTre" />
             </div>
         </div>
     </div>
-    <div id="container-client">
-        <div id="titolo-client">
-            <h1 class="titolo-client">Migliaia di clienti soddisfatti</h1>
-        </div>
-    </div>
-    <div id="container-img-client">
-        <img src="../../assets/img/imgUno.webp" class="immagine-client">
-        <img src="../../assets/img/imgDue.webp" class="immagine-client">
-        <img src="../../assets/img/imgTre.webp" class="immagine-client">
-        <img src="../../assets/img/imgQuattro.webp" class="immagine-client">
-        <img src="../../assets/img/imgCinque.webp" class="immagine-client">
-        <img src="../../assets/img/imgSei.webp" class="immagine-client">
-        <img src="../../assets/img/imgSette.webp" class="immagine-client">
-        <img src="../../assets/img/imgOtto.webp" class="immagine-client">
-        <img src="../../assets/img/imgNove.webp" class="immagine-client">
-    </div>
-    <div id="container-features">
-        <h1 class="titoloFeatures">Fantastiche features</h1>
-        <div id="cardFeatures">
-        <div id="card">
-            <ion-icon name="file-tray-outline" class="icon"></ion-icon>
-            <h3>Website Editor</h3>
-            <p>Editor di siti web intuitivo - Nessuna <br> codifica richiesta</p>
-        </div>
-        <div id="card">
-            <ion-icon name="phone-portrait-outline" class="icon"></ion-icon></ion-icon>
-            <h3>Mobile Friendly</h3>
-            <p>Goditi un responsive web design e un sito <br> ottimizzato per i dispositivi mobili</p>
-        </div>
-        <div id="card">
-            <ion-icon name="toggle-outline" class="icon"></ion-icon>
-            <h3>Hosting gratuito</h3>
-            <p>Stai al sicuro con il nostro web hosting <br> gratuito</p>
-        </div>
-        <div id="card">
-            <ion-icon name="search-outline" class="icon"></ion-icon></ion-icon>
-            <h3>Strumenti SEO</h3>
-            <p>Strumenti SEO che ti offrono un sito web <br> perfettamente ottimizzato</p>
-        </div>
-        <div id="card">
-            <ion-icon name="albums-outline" class="icon"></ion-icon></ion-icon>
-            <h3>Domini Personalizzati</h3>
-            <p>Registrazione gratuita del dominio per <br> affermare il tuo brand</p>
-        </div>
-         <div id="card">
-            <ion-icon name="cart-outline" class="icon"></ion-icon></ion-icon>
-            <h3>Vendi online</h3>
-            <p>Crea un negozio online e vendi in tutto il <br> mondo oggi stesso</p>
-        </div>
-    </div>
-    </div>
-    
-    
-    
-        
 
-    
+    <div id="container-client">
+        <h2 class="titolo-client">Migliaia di clienti soddisfatti</h2>
+    </div>
+
+    <div id="container-img-client" aria-label="Clienti">
+        <img src="../../assets/img/imgUno.webp" alt="Cliente 1" class="immagine-client" />
+        <img src="../../assets/img/imgDue.webp" alt="Cliente 2" class="immagine-client" />
+        <img src="../../assets/img/imgTre.webp" alt="Cliente 3" class="immagine-client" />
+        <img src="../../assets/img/imgQuattro.webp" alt="Cliente 4" class="immagine-client" />
+        <img src="../../assets/img/imgCinque.webp" alt="Cliente 5" class="immagine-client" />
+        <img src="../../assets/img/imgSei.webp" alt="Cliente 6" class="immagine-client" />
+        <img src="../../assets/img/imgSette.webp" alt="Cliente 7" class="immagine-client" />
+        <img src="../../assets/img/imgOtto.webp" alt="Cliente 8" class="immagine-client" />
+        <img src="../../assets/img/imgNove.webp" alt="Cliente 9" class="immagine-client" />
+    </div>
+
+    <div id="container-features">
+        <h2 class="titoloFeatures">Fantastiche features</h2>
+        <div id="cardFeatures">
+            <div id="card">
+                <ion-icon name="file-tray-outline" class="icon" aria-hidden="true"></ion-icon>
+                <h3>Website Editor</h3>
+                <p>Editor di siti web intuitivo - Nessuna <br /> codifica richiesta</p>
+            </div>
+            <div id="card">
+                <ion-icon name="phone-portrait-outline" class="icon" aria-hidden="true"></ion-icon>
+                <h3>Mobile Friendly</h3>
+                <p>Goditi un responsive web design e un sito <br /> ottimizzato per i dispositivi mobili</p>
+            </div>
+            <div id="card">
+                <ion-icon name="toggle-outline" class="icon" aria-hidden="true"></ion-icon>
+                <h3>Hosting gratuito</h3>
+                <p>Stai al sicuro con il nostro web hosting <br /> gratuito</p>
+            </div>
+            <div id="card">
+                <ion-icon name="search-outline" class="icon" aria-hidden="true"></ion-icon>
+                <h3>Strumenti SEO</h3>
+                <p>Strumenti SEO che ti offrono un sito web <br /> perfettamente ottimizzato</p>
+            </div>
+            <div id="card">
+                <ion-icon name="albums-outline" class="icon" aria-hidden="true"></ion-icon>
+                <h3>Domini Personalizzati</h3>
+                <p>Registrazione gratuita del dominio per <br /> affermare il tuo brand</p>
+            </div>
+            <div id="card">
+                <ion-icon name="cart-outline" class="icon" aria-hidden="true"></ion-icon>
+                <h3>Vendi online</h3>
+                <p>Crea un negozio online e vendi in tutto il <br /> mondo oggi stesso</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="sezioneUnoPagina">
+        <div class="testo-sezione-uno">
+            <h2 id="titoloSezioneUno">Cosa ci rende il miglior <br /> costruttore di siti web</h2>
+            <p class="p-SectionUno">SITE123 è il costruttore di siti web più intuitivo e facile da usare sul mercato. Ci occupiamo di tutto, dalle strutture del sito web al design, per assicurarci che tu ti concentri solo sui tuoi contenuti</p>
+            <p class="p-SectionUno">L'editor di SITE123 è molto più efficiente dei tradizionali costruttori di siti Web tramite drag-and-drop</p>
+            <p class="p-SectionUno">Crea un sito web gratuito con il nostro sistema di gestione dei contenuti e stabilisci la tua presenza online. Condividi il tuo sito web sui social media e crea un sito web oggi stesso!</p>
+        </div>
+        <div id="immagineSezioneUno">
+            <img src="../../assets/img/800_6447945c842ff.webp" alt="Costruttore siti web SITE123" class="img-sec-uno" />
+        </div>
+    </div>
+
+    <div id="sezioneDuePagina">
+        <div id="testo-sezione-due">
+            <h2 id="titoloSezioneDue">Crea il tuo sito web <br> aziendale in 3 semplici <br> passaggi<h2>
+            <p class="p-SectionDue">Crea il tuo sito web aziendale in 3 semplici passaggi. Seleziona il tipo di sito web e carica i tuoi contenuti. Quindi pubblica il tuo sito per portare la tua attività online in meno di un'ora.</p>
+            <p class="p-SectionDue">Tutti i siti Web sono completamente reattivi e si adattano a qualsiasi dispositivo mobile.</p>
+            <p class="p-SectionDue">Imposta il tuo SEO per migliorare i tuoi risultati sui motori di ricerca e indirizzare il traffico verso il tuo sito web aziendale!</p>
+        </div>
+        <div id="immagineSezioneDue">
+            <img src="../../assets/img/800_6447945d0204a.webp" alt="Costruttore siti web SITE123" class="img-sec-due" />
+        </div>
+    </div>
+
+    <div id="sezioneTrePagina">
+        <div class="testo-sezione-tre">
+            <h2 id="titoloSezioneTre">Crea il tuo negozio <br> online in pochissimo <br> tempo</h2>
+            <p class="p-SectionTre">Rendi operativo il tuo negozio online in pochissimo tempo! Carica i tuoi prodotti, configura le impostazioni e inizia subito a vendere.</p>
+            <p class="p-SectionTre">Trasmetti oggi stesso i tuoi prodotti per vendere e guadagnare online con il tuo sito web professionale!</p>
+        </div>
+        <div id="immagineSezioneTre">
+            <img src="../../assets/img/800_6447945d909c6.webp" alt="Costruttore siti web SITE123" class="img-sec-tre" />
+        </div>
+    </div>
+
 </body>
 </html>
