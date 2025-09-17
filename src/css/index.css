@@ -340,3 +340,116 @@ a:hover{
   background-color: rgba(0, 0, 0, 0.3);
   margin-top: 4px; /* spazio tra testo e linea */
 }
+
+
+/* Stili corretti e completi */
+
+#sezione-clienti {
+    background-color: rgb(236, 245, 244);
+    padding: 40px 0;
+    color: black;
+}
+
+.titoloClienti {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: Arial, sans-serif;
+}
+
+#container-clienti {
+    background-color: rgb(236, 245, 244);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#item-clienti {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 253, 253);
+
+}
+
+
+#iconeStelle {
+    color: rgb(255, 106, 0);
+    font-size: 20px;    
+}
+
+.testo {
+    width: 330px;
+    height: auto;
+    font-family: Arial, sans-serif;
+}
+
+.nome {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: -30px;
+    font-size: 15px;
+}
+
+
+#footer{
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    padding-left: 10%;
+    gap: 25px;
+
+}
+
+#primaParteFooter{
+    padding: 15px;
+}
+
+
+.img-Footer{
+    margin-left: 0;
+    width: 200px;
+
+}
+
+.paragrafoFooter{
+    width: 300px;
+}
+
+#iconeSocial{
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+}
+
+
+.italia{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+#linkFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-footer{
+    font-size: 15px;
+}
+
+
+#containerLink{
+    display: flex;
+    gap: 120px;
+}
