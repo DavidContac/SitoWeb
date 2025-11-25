@@ -1,446 +1,463 @@
-/* Barra di navigazione principale */
+/* Stile per la barra di navigazione principale */
 #nav-bar {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+    display: flex; /* Usa Flexbox per disporre gli elementi in linea */
+    justify-content: space-between; /* Spazia gli elementi ai lati opposti */
+    margin-top: 30px; /* Distanza sopra la barra di navigazione */
 }
 
-/* Tutte le immagini */
+/* Stile per tutte le immagini */
 img {
-    width: 180px;
-    margin-left: 80%;
+    width: 180px; /* Imposta la larghezza fissa dell'immagine */
+    margin-left: 80%; /* Sposta l'immagine verso destra (80% del contenitore) */
 }
 
-/* Menu di navigazione */
+/* Stile per il menu di navigazione */
 #menu-nav {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-right: 7%;
+    display: flex; /* Dispone gli elementi in orizzontale */
+    align-items: center; /* Allinea verticalmente al centro */
+    gap: 30px; /* Spazio fisso tra gli elementi */
+    margin-right: 7%; /* Spazio a destra del contenitore */
 }
 
-/* Link */
+/* Stile per tutti i link <a> */
 a {
-    text-decoration: none;
-    color: rgb(47, 47, 47);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    text-decoration: none; /* Rimuove la sottolineatura */
+    color: rgb(47, 47, 47); /* Colore testo grigio scuro */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font personalizzato */
+    font-size: 20px; /* Dimensione del testo */
 }
 
-/* Hover link */
+/* Effetto hover per i link */
 a:hover {
-    color: rgb(11, 105, 236);
+    color: rgb(11, 105, 236); /* Cambia colore in blu acceso al passaggio del mouse */
 }
 
-/* Barra distanza */
+/* Classe per una barra di distanza (probabilmente un separatore) */
 .BarraDistanza {
-    font-size: 20px;
-    color: rgb(47, 47, 47);
-    font-weight: 900;
+    font-size: 20px; /* Dimensione testo */
+    color: rgb(47, 47, 47); /* Colore testo */
+    font-weight: 900; /* Testo molto spesso (grassetto) */
 }
 
-/* Icona */
+/* Stile per un elemento con id "icon" */
 #icon {
-    font-size: 20px;
+    font-size: 20px; /* Dimensione icona/testo */
 }
 
-/* Hover icona */
+/* Effetto hover per l'icona */
 #icon:hover {
-    color: rgb(11, 105, 236);
-    cursor: pointer;
+    color: rgb(11, 105, 236); /* Cambia colore in blu acceso */
+    cursor: pointer; /* Cambia il cursore a mano per indicare cliccabilità */
 }
 
-/* Link di navigazione evidenziato */
+/* Stile per un link specifico con id "link-nav" */
 #link-nav {
-    color: white;
-    background-color: rgb(11, 105, 236);
-    padding: 20px;
-    border-radius: 5px;
-    font-size: 15px;
-    cursor: pointer;
+    color: white; /* Testo bianco */
+    background-color: rgb(11, 105, 236); /* Sfondo blu */
+    padding: 20px; /* Spazio interno attorno al testo */
+    border-radius: 5px; /* Angoli leggermente arrotondati */
+    font-size: 15px; /* Dimensione testo leggermente più piccola */
+    cursor: pointer; /* Cursore a mano */
 }
 
-/* Contenitore introduzione */
+/* Contenitore dell'introduzione */
 #container-intro {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 10%;
-    margin-top: 3%;
+    display: flex; /* Dispone gli elementi in orizzontale */
+    align-items: flex-start; /* Allinea verticalmente in alto */
+    margin-left: 10%; /* Spazio a sinistra */
+    margin-top: 3%; /* Spazio sopra */
 }
 
-/* Contenuto introduzione */
+/* Stile per il contenuto introduttivo */
 #intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Organizza i figli in colonna */
+    justify-content: flex-start; /* Allinea il contenuto all'inizio (in alto) */
 }
 
-/* Titolo introduzione */
+/* Titolo dell'introduzione */
 .titoloIntro {
-    font-size: 65px;
-    margin: 0;
-    line-height: 1.1;
+    font-size: 65px; /* Testo molto grande */
+    margin: 0; /* Rimuove margini predefiniti */
+    line-height: 1.1; /* Spaziatura riga compatta */
 }
 
-/* Paragrafo introduzione */
+/* Paragrafo dell'introduzione */
 .paragrafoIntro {
-    font-size: 25px;
-    margin: 20px 0 0 0;
-}
+    font-size: 25px; /* Testo grande */
+    margin: 20px 0 0 0; /* Margine sopra per separarlo dal titolo, nessun margine a destra, sotto, sinistra */
+} 
 
-/* Contenitore link/bottone */
+
+
+/* Contenitore per un link, stile bottone */
 #link-container {
-    display: inline-block;
-    color: white;
-    background-color: rgb(215, 104, 8);
-    padding: 15px 25px;
-    margin-top: 30px;
-    border-radius: 5px;
-    font-size: 16px;
-    text-decoration: none;
+    display: inline-block; /* Comportamento simile a un bottone */
+    color: white; /* Colore testo bianco */
+    background-color: rgb(215, 104, 8); /* Sfondo arancione */
+    padding: 15px 25px; /* Spazio interno verticale e orizzontale */
+    margin-top: 30px; /* Spazio sopra per separarlo da altri elementi */
+    border-radius: 5px; /* Angoli arrotondati */
+    font-size: 16px; /* Dimensione testo */
+    text-decoration: none; /* Rimuove la sottolineatura del link */
 }
 
-/* Contenitore immagini verticali */
-#containerImg {
-    margin-left: 7%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    right: 600px;
+/* Contenitore per immagini con layout verticale */
+#containerImg { 
+    margin-left: 7%; /* Margine a sinistra */
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Disposizione verticale */
+    position: relative; /* Posizionamento relativo per spostamenti */
+    right: 600px; /* Sposta il contenitore 600px verso sinistra rispetto alla posizione normale */
 }
 
-/* Prima immagine */
-.ImgUno {
-    width: 700px;
+/* Prima immagine con larghezza fissa */
+.ImgUno { 
+    width: 700px; 
 }
 
-/* Seconda immagine */
-.ImgDue {
-    width: 550px;
-    position: relative;
-    bottom: 155px;
-    left: 75px;
+/* Seconda immagine con posizione relativa spostata */
+.ImgDue { 
+    width: 550px; 
+    position: relative; 
+    bottom: 155px; /* Sposta l'immagine verso l'alto di 155px */
+    left: 75px; /* Sposta l'immagine verso destra di 75px */
 }
 
-/* Terza immagine */
-.ImgTre {
-    width: 170px;
-    position: relative;
-    bottom: 270px;
-    left: 320px;
+/* Terza immagine con posizione relativa spostata */
+.ImgTre { 
+    width: 170px; 
+    position: relative; 
+    bottom: 270px; /* Sposta molto in alto */
+    left: 320px; /* Sposta verso destra */
 }
 
-/* Titolo sezione clienti */
+/* Titolo della sezione clienti */
 .titolo-client {
-    margin-top: -140px;
-    font-size: 50px;
-    text-align: center;
-    color: rgb(0, 0, 54);
+    margin-top: -140px; /* Sposta il titolo verso l'alto, sovrapponendosi probabilmente ad altro */
+    font-size: 50px; /* Testo grande */
+    text-align: center; /* Centra il testo */
+    color: rgb(0, 0, 54); /* Colore blu scuro */
 }
 
 /* Contenitore immagini clienti */
 #container-img-client {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
-    gap: 25px;
+    display: flex; /* Flexbox per disporre immagini in linea */
+    justify-content: center; /* Centra gli elementi orizzontalmente */
+    flex-wrap: wrap; /* Permette di andare a capo se non ci stanno */
+    margin-left: 10%; /* Margine sinistro */
+    margin-right: 10%; /* Margine destro */
+    gap: 25px; /* Spazio tra le immagini */
 }
 
-/* Immagine singolo cliente */
+/* Singola immagine cliente */
 .immagine-client {
-    margin-left: 0;
-    width: 30%;
+    margin-left: 0; /* Nessun margine sinistro */
+    width: 30%; /* Occupa il 30% della larghezza del contenitore */
 }
 
-/* Contenitore sezione Features */
+/* Contenitore della sezione Features con sfondo chiaro */
 #container-features {
-    background-color: rgb(237, 248, 251);
+    background-color: rgb(237, 248, 251); /* Colore azzurro molto chiaro */
 }
 
-/* Titolo Features */
+/* Titolo della sezione Features */
 .titoloFeatures {
-    padding-top: 5%;
-    font-size: 50px;
-    text-align: center;
-    color: rgb(0, 0, 54);
+    padding-top: 5%; /* Spazio sopra il titolo */
+    font-size: 50px; /* Testo molto grande */
+    text-align: center; /* Centra il testo */
+    color: rgb(0, 0, 54); /* Blu scuro */
 }
 
-/* Contenitore card Features */
+/* Contenitore delle card Features */
 #cardFeatures {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-left: 10%;
-    padding-right: 10%;
+    display: flex; /* Flexbox */
+    flex-wrap: wrap; /* Permette alle card di andare su più righe */
+    justify-content: space-evenly; /* Spaziatura uniforme tra le card */
+    padding-left: 10%; /* Padding sinistro */
+    padding-right: 10%; /* Padding destro */
 }
 
-/* Singola card Feature */
+/* Singola card nella sezione Features */
 #card {
-    width: 30%;
-    text-align: center;
-    margin-bottom: 20px;
+    width: 30%; /* Ogni card occupa circa un terzo della riga */
+    text-align: center; /* Testo centrato */
+    margin-bottom: 20px; /* Spazio sotto ogni card */
 }
 
-/* Icona card */
+/* Icone all'interno delle card */
 .icon {
-    font-size: 35px;
-    color: rgb(0, 89, 255);
+    font-size: 35px; /* Dimensione grande per l'icona */
+    color: rgb(0, 89, 255); /* Colore blu acceso */
 }
 
-/* Prima sezione pagina */
+/* Prima sezione della pagina */
 #sezioneUnoPagina {
-    display: flex;
-    align-items: center;
-    padding: 5% 10%;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex; /* Flexbox */
+    align-items: center; /* Allinea verticalmente al centro */
+    padding: 5% 10%; /* Spaziatura interna: 5% verticalmente e 10% orizzontalmente */
+    font-size: 30px; /* Testo grande */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font */
 }
 
-/* Immagine sezione uno */
+/* Immagine nella prima sezione */
 .img-sec-uno {
-    margin-left: 0;
-    padding-top: 100px;
-    width: 650px;
+    margin-left: 0; /* Nessun margine a sinistra */
+    padding-top: 100px; /* Spazio sopra l'immagine */
+    width: 650px; /* Larghezza fissa */
 }
 
-/* Paragrafo sezione uno */
+/* Paragrafo nella prima sezione */
 .p-SectionUno {
-    width: 85%;
-    color: grey;
-    font-size: 20px;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    width: 85%; /* Occupa l'85% della larghezza del contenitore */
+    color: grey; /* Testo grigio */
+    font-size: 20px; /* Dimensione testo media */
+    font-family: Calibri, 'Trebuchet MS', sans-serif; /* Font */
 }
 
-/* Seconda sezione pagina */
+/* Seconda sezione della pagina con layout inverso */
 #sezioneDuePagina {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    padding: 5%;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(237, 248, 251);
+    display: flex; /* Flexbox */
+    flex-direction: row-reverse; /* Ordine inverso: immagine a sinistra, testo a destra */
+    align-items: center; /* Allinea verticalmente al centro */
+    padding: 5%; /* Spaziatura interna */
+    font-size: 30px; /* Testo grande */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font */
+    background-color: rgb(237, 248, 251); /* Sfondo azzurro chiaro */
 }
 
-/* Testo sezione due */
+/* Testo della seconda sezione */
 #testo-sezione-due {
-    padding-left: 120px;
+    padding-left: 120px; /* Spazio a sinistra */
 }
 
-/* Immagine sezione due */
+/* Immagine nella seconda sezione */
 .img-sec-due {
-    margin-left: 0px;
-    width: 630px;
+    margin-left: 0px; /* Nessun margine sinistro */
+    width: 630px; /* Larghezza fissa */
 }
 
-/* Paragrafo sezione due */
+/* Paragrafo nella seconda sezione */
 .p-SectionDue {
-    width: 85%;
-    color: grey;
-    font-size: 20px;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    width: 85%; /* Larghezza contenuto */
+    color: grey; /* Colore testo */
+    font-size: 20px; /* Dimensione testo */
+    font-family: Calibri, 'Trebuchet MS', sans-serif; /* Font */
 }
 
-/* Terza sezione pagina */
+/* Terza sezione della pagina */
 #sezioneTrePagina {
-    display: flex;
-    align-items: center;
-    padding: 10%;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex; /* Flexbox */
+    align-items: center; /* Allinea verticalmente al centro */
+    padding: 10%; /* Spaziatura interna */
+    font-size: 30px; /* Testo grande */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font */
 }
 
-/* Immagine sezione tre */
+/* Immagine nella terza sezione */
 .img-sec-tre {
-    margin-left: 0;
-    padding-top: 100px;
-    width: 650px;
+    margin-left: 0; /* Nessun margine sinistro */
+    padding-top: 100px; /* Spazio sopra l'immagine */
+    width: 650px; /* Larghezza fissa */
 }
 
-/* Paragrafo sezione tre */
+/* Paragrafo nella terza sezione */
 .p-SectionTre {
-    width: 87%;
-    color: grey;
-    font-size: 20px;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    width: 87%; /* Larghezza contenuto */
+    color: grey; /* Colore testo */
+    font-size: 20px; /* Dimensione testo */
+    font-family: Calibri, 'Trebuchet MS', sans-serif; /* Font */
 }
 
-/* Contenitore assistenza */
+/* Contenitore per la sezione assistenza */
 #container-assistenza {
-    display: flex;
-    align-items: center;
-    background-color: rgb(1, 3, 88);
+    display: flex; /* Flexbox */
+    align-items: center; /* Allinea verticalmente al centro */
+    background-color: rgb(1, 3, 88); /* Sfondo blu scuro */
 }
 
-/* Titolo assistenza */
+/* Titolo della sezione assistenza */
 .titoloAssistenza {
-    padding-left: 20%;
-    font-size: 50px;
-    color: white;
+    padding-left: 20%; /* Spazio a sinistra */
+    font-size: 50px; /* Testo molto grande */
+    color: white; /* Colore testo bianco */
 }
 
-/* Paragrafo assistenza */
+/* Paragrafo della sezione assistenza */
 .p-assistenza {
-    padding-left: 20%;
-    font-size: 20px;
-    width: 70%;
-    color: white;
+    padding-left: 20%; /* Spazio a sinistra */
+    font-size: 20px; /* Dimensione testo */
+    width: 70%; /* Larghezza contenuto */
+    color: white; /* Colore testo bianco */
 }
 
-/* Immagine assistenza */
+
+/* Immagine nella sezione assistenza */
 .img-assistenza {
-    margin-left: 0;
-    width: 550px;
-    padding-right: 220px;
+    margin-left: 0; /* Nessun margine a sinistra */
+    width: 550px; /* Larghezza fissa */
+    padding-right: 220px; /* Spazio interno a destra */
 }
 
 /* Sezione domande frequenti */
 #domande {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    text-align: center;
-    font-size: 20px;
-    color: rgb(1, 3, 88);
+    padding-top: 5%; /* Spazio sopra */
+    text-align: center; /* Testo centrato */
+    font-size: 20px; /* Dimensione testo */
+    color: rgb(1, 3, 88); /* Blu scuro */
 }
 
-/* Singola domanda */
+/* Contenitore di singole domande */
 .linkDomanda {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 25%;
-    position: relative;
-    text-decoration: none;
-    color: inherit;
+    display: flex; /* Dispone in linea (ma poi viene sovrascritto più avanti) */
+    padding-left: 25%; /* Spazio a sinistra */
 }
 
-/* Linea sotto domanda */
+/* Riproposizione e completamento dello stile per #domande */
+#domande {
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Disposizione verticale */
+    gap: 20px; /* Spazio tra le domande */
+    padding-top: 5%; /* Spazio sopra */
+    padding-bottom: 5%; /* Spazio sotto */
+    text-align: center; /* Testo centrato */
+    font-size: 20px; /* Dimensione testo */
+    color: rgb(1, 3, 88); /* Blu scuro */
+}
+
+/* Stile aggiornato per ogni domanda/link */
+.linkDomanda {
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Disposizione verticale */
+    align-items: flex-start; /* Allinea il contenuto a sinistra */
+    padding-left: 25%; /* Spazio a sinistra */
+    position: relative; /* Per usare pseudo-elementi posizionati */
+    text-decoration: none; /* Rimuove sottolineatura */
+    color: inherit; /* Colore eredita dal genitore */
+}
+
+/* Linea sottile sotto ogni domanda */
 .linkDomanda::after {
-    content: "";
-    display: block;
-    width: 900px;
-    height: 0.5px;
-    background-color: rgba(0, 0, 0, 0.3);
-    margin-top: 4px;
+    content: ""; /* Elemento vuoto */
+    display: block; /* Rende il contenuto un blocco */
+    width: 900px; /* Larghezza fissa della linea */
+    height: 0.5px; /* Altezza linea sottile */
+    background-color: rgba(0, 0, 0, 0.3); /* Colore linea semi-trasparente */
+    margin-top: 4px; /* Spazio sopra la linea */
 }
 
-/* Sezione clienti */
+/* Sezione clienti, sfondo chiaro */
 #sezione-clienti {
-    background-color: rgb(236, 245, 244);
-    padding: 40px 0;
-    color: black;
+    background-color: rgb(236, 245, 244); /* Colore azzurro molto chiaro */
+    padding: 40px 0; /* Spaziatura verticale */
+    color: black; /* Colore testo */
 }
 
-/* Titolo clienti */
+/* Titolo della sezione clienti */
 .titoloClienti {
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 40px;
-    font-family: Arial, sans-serif;
+    text-align: center; /* Testo centrato */
+    font-size: 50px; /* Testo molto grande */
+    margin-bottom: 40px; /* Spazio sotto */
+    font-family: Arial, sans-serif; /* Font */
 }
 
-/* Contenitore clienti */
+/* Contenitore principale dei clienti */
 #container-clienti {
-    background-color: rgb(236, 245, 244);
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 40px;
-    border-radius: 10px;
-    max-width: 1200px;
-    margin: 0 auto;
+    background-color: rgb(236, 245, 244); /* Stesso colore di sfondo */
+    display: flex; /* Flexbox */
+    justify-content: center; /* Centra gli elementi */
+    gap: 30px; /* Spazio tra gli elementi */
+    padding: 40px; /* Spaziatura interna */
+    border-radius: 10px; /* Angoli arrotondati */
+    max-width: 1200px; /* Larghezza massima */
+    margin: 0 auto; /* Centra il contenitore */
 }
 
-/* Singolo elemento clienti */
+/* Singolo elemento cliente */
 #item-clienti {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: rgb(255, 253, 253);
+    padding: 20px; /* Spaziatura interna */
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Verticale */
+    gap: 10px; /* Spazio tra elementi interni */
+    background-color: rgb(255, 253, 253); /* Sfondo bianco/avorio */
 }
 
-/* Icone stelle */
+/* Icona stelle (per recensioni?) */
 #iconeStelle {
-    color: rgb(255, 106, 0);
-    font-size: 20px;
+    color: rgb(255, 106, 0); /* Colore arancione brillante */
+    font-size: 20px; /* Dimensione icona */
 }
 
-/* Testo cliente */
+/* Testo all'interno dei clienti */
 .testo {
-    width: 330px;
-    height: auto;
-    font-family: Arial, sans-serif;
+    width: 330px; /* Larghezza fissa */
+    height: auto; /* Altezza automatica */
+    font-family: Arial, sans-serif; /* Font */
 }
 
 /* Nome cliente */
 .nome {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    margin-top: -30px;
-    font-size: 15px;
+    display: flex; /* Flexbox */
+    gap: 5px; /* Spazio tra nome e eventuale elemento (es. icona) */
+    align-items: center; /* Allinea verticalmente */
+    font-family: Arial, sans-serif; /* Font */
+    font-weight: bold; /* Grassetto */
+    margin-top: -30px; /* Sposta verso l'alto */
+    font-size: 15px; /* Dimensione testo */
 }
 
-/* Footer */
+/* Footer principale */
 #footer {
-    background-color: rgb(255, 253, 253);
-    display: flex;
-    padding-left: 10%;
-    gap: 25px;
+    background-color: rgb(255, 253, 253); /* Sfondo chiaro */
+    display: flex; /* Flexbox */
+    padding-left: 10%; /* Padding a sinistra */
+    gap: 25px; /* Spazio tra i contenuti */
 }
 
-/* Prima parte footer */
+/* Prima parte del footer */
 #primaParteFooter {
-    padding: 15px;
+    padding: 15px; /* Spaziatura interna */
 }
 
-/* Immagine footer */
+/* Immagine nel footer */
 .img-Footer {
-    margin-left: 0;
-    width: 200px;
+    margin-left: 0; /* Nessun margine sinistro */
+    width: 200px; /* Larghezza fissa */
 }
 
-/* Paragrafo footer */
+/* Paragrafo nel footer */
 .paragrafoFooter {
-    width: 300px;
+    width: 300px; /* Larghezza fissa */
 }
 
-/* Icone social */
+/* Contenitore icone social */
 #iconeSocial {
-    display: flex;
-    gap: 10px;
-    font-size: 25px;
+    display: flex; /* Flexbox */
+    gap: 10px; /* Spazio tra le icone */
+    font-size: 25px; /* Dimensione icone */
 }
 
-/* Area Italia */
+/* Classe per area “Italia” (o simili) */
 .italia {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+    display: flex; /* Flexbox */
+    align-items: center; /* Allinea verticalmente */
+    gap: 5px; /* Spazio tra elementi */
 }
 
-/* Link nel footer */
+/* Contenitore dei link nel footer */
 #linkFooter {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Disposizione verticale */
+    gap: 10px; /* Spazio tra i link */
 }
 
-/* Singolo link footer */
+/* Singolo link nel footer */
 .link-footer {
-    font-size: 15px;
+    font-size: 15px; /* Dimensione testo */
 }
 
-/* Contenitore gruppi link */
+/* Contenitore per i gruppi di link */
 #containerLink {
-    display: flex;
-    gap: 120px;
-}
+    display: flex; /* Flexbox */
+    gap: 120px; /* Spazio ampio tra gruppi */
+} 
